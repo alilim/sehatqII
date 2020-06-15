@@ -1,30 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+## Required 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Node version ^10  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### NPM or Yarn
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Run Project 
 
-## Learn More
+To run this project in local please follow :
 
-To learn more about Next.js, take a look at the following resources:
+### `npm install` 
+or 
+### `yarn install`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+First install node modules by run this code
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### `npm run dev`
+or
+### `yarn dev`
 
-## Deploy on Vercel
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+**Note: You need to run this in localhost:3000 to make sure Login facebook & google is working.**
+
+**Note: Login Page, Input any username and password**
+
+**Note: Profile icon, is changed to Logout for Logout purpose**
+
+
+## Insider 
+
+What is inside here : 
+
+1. ReactJS 
+2. NextJS
+2. Redux for state management (user, cart, and items) also with Redux persist (localStorage)
+3. React Hook includes useState, useEffect, useRef
+4. Next Router - Next Link - Server-side Rendering
+6. Styled-component as CSS Javascript 
+7. TypeScript in components
+
+
+Most important plugin I like to thanks : 
+
+1. react-facebook-login, react-google-login --> login 
+2. react-ga --> SEO Google Analytics
+3. react-sharingbuttons --> Share button for facebook, twitter and email
+4. slick-carousel --> Category menu slider
+
+
+
+
+
